@@ -14,6 +14,7 @@ public class Main {
         // Pre order dan post order
 
         // Menguji fungsi find and delete
-    
+        tree.findNode(30);
+
     }
 }
