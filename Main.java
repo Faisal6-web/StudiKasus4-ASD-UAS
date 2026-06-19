@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
-        System.out.println("=== 1. Memasukkan Data ke BST (Fungsi Marvel) ===");
+        System.out.println("=== 1. Memasukkan Data ke BST  ===");
         int[] dataUji = {50, 30, 70, 20, 40, 60, 80};
         for (int nilai : dataUji) {
             tree.insert(nilai);
@@ -23,7 +23,7 @@ public class Main {
         tree.postOrder(tree.root);
         System.out.println("\n");
 
-        System.out.println("=== 3. Mencetak Child dan Parent (Fungsi Rizdan) ===");
+        System.out.println("=== 3. Mencetak Child dan Parent  ===");
         System.out.println("-- Mengecek Node 30 --");
         tree.findNode(30);
         System.out.println();
