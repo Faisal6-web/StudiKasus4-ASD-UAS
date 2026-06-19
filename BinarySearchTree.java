@@ -22,6 +22,10 @@ public class BinarySearchTree {
     }
 
     // Faisal: Fungsi Delete
+    void deleteKey(int key){
+        root = deleteNode(root, key);
+    }
+    
     Node deleteNode(Node root, int key) {
         if (root == null) {
             return root;
