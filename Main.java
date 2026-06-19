@@ -10,7 +10,7 @@ public class Main {
         }
         System.out.println("Data 50, 30, 70, 20, 40, 60, 80 berhasil dimasukkan.\n");
 
-        System.out.println("=== 2. Mencetak Traversal (Fungsi Rakha) ===");
+        System.out.println("=== 2. Mencetak Traversal  ===");
         System.out.print("Preorder  : ");
         tree.preOrder(tree.root);
         System.out.println();
